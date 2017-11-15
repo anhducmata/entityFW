@@ -12,5 +12,6 @@ namespace testEntityFarmwork
         public static int username;
         public static string email;
         public static string role;
+      public static string role1;
     }
 }
