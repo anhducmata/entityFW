@@ -8,9 +8,10 @@ using System.Threading.Tasks;
 
 namespace testEntityFarmwork {
     public class Mail {
-        public void sendMail(string inEmail) {
+        public void sendMail(string inEmail)
+        {
 
-
+            String a = "Abc";
             MailMessage message = new MailMessage();
             SmtpClient smtp = new SmtpClient();
 
